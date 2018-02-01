@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+
+        header {
+            color: white;
+            background-color: darkblue;
+        }
+
+        input {
+            background-color: white;
+
+        }
+
+        #submitCreateAccount {
+            color: white;
+            background: forestgreen;
+            border: red;
+            padding: 10px;
+
+        }
+
+        #submitLogIn {
+            color: white;
+            background: mediumblue;
+            border-width: 1px;
+            padding: 2px;
+        }
+
+        .header {
+            color: white;
+            background-color: darkblue;
+
+        }
+
+        .logoHeader {
+            margin-left: 150px;
+            float: left;
+
+        }
+
+        .loginHeader {
+            margin-left: 850px;
+            padding: 2.5em;
+
+            color: white;
+
+        }
+
+        .footer {
+            padding: 1.5em;
+            color: black;
+            background-color: white;
+            clear: left;
+            text-align: center;
+            border-bottom: 1px solid darkgray;
+        }
+
+        .connectWithArea {
+            float: left;
+            margin-top: 50px;
+
+            margin-left: -130px;
+        }
+
+        .signUpArea {
+            margin-left: 1000px;
+            overflow: hidden;
+            color: black;
+        }
+
+        a {
+            color: blue;
+        }
+
+    </style>
+</head>
+
+
+<body>
+<div class="header">
+    <div class="logoHeader" align="left">
+        <img src="facebook_logo_white.png" style="width:150px;height:100px;">
+    </div>
+
+    <div class="loginHeader">
+        <form action="/action_page.php">
+            Email or Phone
+            <input type="text" name="Email or Phone" value="" >
+            Password
+            <input type="text" name="Password" value="">
+            <input type="submit" value="Log In" id="submitLogIn">
+
+        </form>
+    </div>
+
+</div>
+
+
+<div class="connectWithArea">
+    <h2>Connect with friends and the world around you on Facebook.</h2>
+    <pre><img src="photospng.png" width="50px" height="50px"><b>   See Photos and Updates</b> from friends in News Feed.</pre>
+    <pre><img src="newpng.png" width="50px" height="50px"> <b>  Share what's new</b> in your life from your timeline.</pre>
+    <pre><img src="findmorepng.png" width="50px" height="50px"> <b>  Find more</b> of what your looking for with Facebook Search</pre>
+</div>
+
+<div class="signUpArea">
+    <h1>Sign Up</h1>
+    <p>It's free and always will be.</p>
+
+    <form action="/action_page.php">
+        <input type="text" name="firstname" placeholder="First name">
+        <input type="text" name="lastname" placeholder="Last name">
+        <br>
+        <input type="text" name="mobile number" placeholder="Mobile number or email">
+        <br>
+        <input type="text" name="new password" placeholder="New Password">
+
+        <br>
+        <br>
+
+        <form action="/action_page.php">
+            Birthday <br>
+            <input type="date" name="bday">
+            <span><a href="" style="text-decoration: none">Why do I need to provide my birthday?</a> </span>
+
+        </form>
+
+        <br>
+
+        <form action="/action_page.php">
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="male"> Male<br>
+        </form>
+        <h6>By clicking Create Account, you agree to our Terms<br>
+            and that you have read our Data Policy, including our Cookie Use.<br>
+            You may receive SMS Notifications from Facebook
+            and can opt out at any time.</h6>
+
+        <input type="submit" value="Create Account" id="submitCreateAccount">
+    </form>
+
+    <p><a href="" style="text-decoration: none">Create a page </a> for a celebrity, band or business</p>
+</div>
+
+<div class="footer"> <ul style="list-style-type: none">
+    <li><a href="" style="text-decoration: none"> English (US) Romana Magyar Italiano Spain France
+        Deutsch Turkey Portugues(Brasil)</a> </li> </ul>
+</div>
+
+
+</body>
+</html>
